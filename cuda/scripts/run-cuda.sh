@@ -1,11 +1,4 @@
 #!/bin/bash
-#$ -S /bin/bash
-#$ -cwd
-#$ -j y
-#$ -N cuda_conv
-
-# Adjust this script to the CUDA server or queue environment used by the course.
-# Do not execute long runs on a login/front-end node.
 
 make
 ./cudaconv \
